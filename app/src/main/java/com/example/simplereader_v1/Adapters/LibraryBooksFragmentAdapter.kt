@@ -5,12 +5,14 @@ import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.PopupMenu
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.simplereader_v1.MainActivity
 import com.example.simplereader_v1.MyPdfActivity
+import com.example.simplereader_v1.R
 import com.example.simplereader_v1.database.models.LibraryBook
 import com.example.simplereader_v1.databinding.LibraryBookItemBinding
 import com.pspdfkit.configuration.activity.PdfActivityConfiguration
@@ -39,6 +41,25 @@ class LibraryBooksFragmentAdapter(val context : FragmentActivity) : ListAdapter<
         holder.binding.apply {
             thumbnail.setImageURI(Uri.parse(item.thumbnailUri))
             Log.d("TagD",item.thumbnailUri)
+            title.text = item.name
+            PopupMenu(context,more).apply {
+                inflate(R.menu.more_options)
+                setOnMenuItemClickListener {
+                    when(it.itemId){
+                        R.id.more_info ->{
+                            true
+                        }
+
+                        else -> {
+                            false
+                        }
+                    }
+                }
+                more.setOnClickListener(){
+                    show()
+                }
+
+            }
             thumbnail.setOnClickListener(){
                 Log.d("TagD","onClick")
                 val config = PdfActivityConfiguration
@@ -60,9 +81,6 @@ class LibraryBooksFragmentAdapter(val context : FragmentActivity) : ListAdapter<
                 intent.putExtras(bundle)
                 context.startActivity(intent)
 
-
-            }
-            delete.setOnClickListener(){
 
             }
 

@@ -11,17 +11,15 @@
         android:paddingHorizontal="4dp"
         android:paddingVertical="4dp"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         tools:listitem="@layout/library_book_item"
-        app:spanCount="3"
-        android:background="@color/hash"/>
+        android:background="@color/hash"
+        android:scrollbars="vertical"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/add_book_fab"
