@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500">
+        <TextView
+            android:fontFamily="sans-serif"
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:background="@color/white"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:padding="4dp"
+            tools:text="This is an example of a monospace font.Note Demo Note\nNote Demo \nNote Demo\nNote Demo\n Note Demo" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

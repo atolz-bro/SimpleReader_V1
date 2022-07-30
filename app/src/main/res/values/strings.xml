@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SimpleReader_V1</string>
+    <string name="empty_library">You Have No Books in Your Library</string>
+    <string name="highlight">HIGHLIGHT</string>
+    <string name="add_to_note">Add To Note</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="notes_count">%d Notes</string>
+    <string name="no_notes_from_library">You current have no notes</string>
+    <string name="time_in_pdf">%d hrs</string>
+</resources>
