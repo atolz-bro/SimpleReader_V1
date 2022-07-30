@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/atola/Downloads/android-basics-kotlin-create-dice-roller-with-button-app-solution-master/SimpleReader_V1/app/src/main/res/drawable-anydpi/ic_add.xml" value="0.114" />
         <entry key="..\:/Users/atola/Downloads/android-basics-kotlin-create-dice-roller-with-button-app-solution-master/SimpleReader_V1/app/src/main/res/drawable-anydpi/ic_note.xml" value="0.1465" />
+        <entry key="..\:/Users/atola/Downloads/android-basics-kotlin-create-dice-roller-with-button-app-solution-master/SimpleReader_V1/app/src/main/res/drawable/baseline_more_vert_24.xml" value="0.164" />
         <entry key="..\:/Users/atola/Downloads/android-basics-kotlin-create-dice-roller-with-button-app-solution-master/SimpleReader_V1/app/src/main/res/drawable/more_horiz_48px.xml" value="0.114" />
         <entry key="..\:/Users/atola/Downloads/android-basics-kotlin-create-dice-roller-with-button-app-solution-master/SimpleReader_V1/app/src/main/res/drawable/outline_delete_24.xml" value="0.1285" />
         <entry key="..\:/Users/atola/Downloads/android-basics-kotlin-create-dice-roller-with-button-app-solution-master/SimpleReader_V1/app/src/main/res/drawable/outline_info_24.xml" value="0.1285" />
@@ -12,7 +13,7 @@
         <entry key="..\:/Users/atola/Downloads/android-basics-kotlin-create-dice-roller-with-button-app-solution-master/SimpleReader_V1/app/src/main/res/layout/fragment_library_books.xml" value="0.22" />
         <entry key="..\:/Users/atola/Downloads/android-basics-kotlin-create-dice-roller-with-button-app-solution-master/SimpleReader_V1/app/src/main/res/layout/fragment_notes.xml" value="0.22" />
         <entry key="..\:/Users/atola/Downloads/android-basics-kotlin-create-dice-roller-with-button-app-solution-master/SimpleReader_V1/app/src/main/res/layout/fragment_pdfs_notes.xml" value="0.1" />
-        <entry key="..\:/Users/atola/Downloads/android-basics-kotlin-create-dice-roller-with-button-app-solution-master/SimpleReader_V1/app/src/main/res/layout/library_book_item.xml" value="0.33" />
+        <entry key="..\:/Users/atola/Downloads/android-basics-kotlin-create-dice-roller-with-button-app-solution-master/SimpleReader_V1/app/src/main/res/layout/library_book_item.xml" value="0.2" />
         <entry key="..\:/Users/atola/Downloads/android-basics-kotlin-create-dice-roller-with-button-app-solution-master/SimpleReader_V1/app/src/main/res/layout/note_item.xml" value="0.33" />
         <entry key="..\:/Users/atola/Downloads/android-basics-kotlin-create-dice-roller-with-button-app-solution-master/SimpleReader_V1/app/src/main/res/layout/pdf_notes_item.xml" value="0.1" />
         <entry key="..\:/Users/atola/Downloads/android-basics-kotlin-create-dice-roller-with-button-app-solution-master/SimpleReader_V1/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2814814814814815" />
